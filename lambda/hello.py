@@ -6,7 +6,6 @@ def handler(event, context):
     table = Conn().connect_to_table()
     data = Conn().get_data()
     print(table)
-    print('geoff')
     print(data)
     return {
         'statusCode': 200,
